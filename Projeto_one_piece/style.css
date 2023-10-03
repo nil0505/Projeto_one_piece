@@ -2,15 +2,16 @@ body{
     background-color: #000000;
     overflow: hidden;/*tira a barra de rolagem*/
 }
-main::after{  /*comando para o degrade/pseudo elemento*/
+main::after {  /*comando para o degrade/pseudo elemento*/
     content: "";
     position: fixed;
     top: 0;
     left: 0;
     /*background-color: #ee82ee;*/
-    min-width: 100vh;
+    min-height: 100vh;
     width: 80vw;
-    background: linear-gradient(-233deg, #000 40%, rgba(0, 0, 0, 0)65%)no-repeat;
+
+    background: linear-gradient(-233deg, #000 40%, rgba(0, 0, 0, 0) 65%) no-repeat;
 
     
 }
@@ -89,7 +90,7 @@ main .personagem .imagem{
 }
 .botoes .botao{
     border: none;
-    background: none;
+    background: #000000;
     cursor: pointer;
     border-radius: 50%;
 } 
